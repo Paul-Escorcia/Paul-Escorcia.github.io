@@ -1,0 +1,144 @@
+body {
+	margin: 0;
+	background-color: #616161;
+	font-family: 'Lato', sans-serif;
+	font-size: 22px;
+	text-align: center;
+	color: white
+}
+
+/*			Header	 		*/
+
+.header-container, .project-container{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+
+.header-container, .about-section, footer{
+	background-color: #2b2b2b;
+}
+
+/*			Navbar			*/
+
+nav {
+    text-align: right;
+    flex-grow: 1;
+	padding-right: 50px;
+}
+  
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+#Name-text{
+	padding-left: 50px;;
+}
+
+p{
+	font-size: 25px;
+}
+
+
+nav li{
+	display: inline-block;
+	border-left: 2px solid #bbb;
+}
+
+a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/*			Banner			*/
+
+.banner-section{
+	background-color: #073488;
+	/*background-image: url("Site_images/pexels-rostislav-uzunov-5011647.jpg");
+	background-size: 100%;
+	background-position: center;*/
+    height: 200px;
+	padding: 7%;
+}
+
+.banner-section h1{
+	margin-top: 2%;
+}
+
+/*			About			*/
+
+.about-section, .project-section{
+	padding: 30px 0 50px 0;
+}
+
+.about-section p{
+	text-align: left;
+	display: inline-block;
+	width: 30%;
+	padding-bottom: 1%;
+}
+.about-section img{
+	display: inline-block;
+	height: 410px;
+	padding-left: 2%;
+}
+
+/*			Project			*/
+
+.projects-section{
+	margin: 1% 0;
+}
+.project-container{
+    padding: 50px 0 50px 20px;
+	margin-left: 7%;
+  }
+  
+.project-container img{
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+	padding-left: 7%;
+}
+.project{
+	padding-right: 150px;
+}
+
+/*			Buttons		*/
+.visit-button,.project-button{
+  padding: 20px 30px;
+  font-size: 28px;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  background-color: #0a3a94;
+  border-radius: 20px;
+  box-shadow: 0 10px #4b4b4b;
+}
+
+/*			Footer		*/
+footer {
+    text-align: center;
+	padding-top: 1%;
+    width: 100%;
+    height: 300px;
+}
+.SocialBar{
+	margin-right: 1.5%;
+}
+.SocialBar li{
+    display: inline-block;
+    padding-right: 10px;
+}
+.SocialBar img{
+    max-width: 30px;
+    max-height: 30px;
+    display: inline-block;
+}
+#Copyright a{
+	display: inline-block;
+}
