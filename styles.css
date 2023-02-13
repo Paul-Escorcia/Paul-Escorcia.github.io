@@ -79,12 +79,13 @@ a{
 .about-section p{
 	text-align: left;
 	display: inline-block;
-	width: 30%;
+	width: 40%;
 	padding-bottom: 1%;
+	font-size: 24px;
 }
 .about-section img{
 	display: inline-block;
-	height: 400px;
+	height: 320px;
 	padding-left: 2%;
 }
 
