@@ -1,9 +1,7 @@
 window.console = window.console || function(t) {};
-
 if (document.location.search.match(/type=embed/gi)) {
     window.parent.postMessage("resize", "*");
 }
-
 $(document).ready(function () {
     $('#so-close').click(function () {
         $('.s-soft').addClass('so-collapse');
