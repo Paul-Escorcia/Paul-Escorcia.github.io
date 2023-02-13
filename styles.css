@@ -84,8 +84,22 @@ a{
 }
 .about-section img{
 	display: inline-block;
-	height: 410px;
+	height: 400px;
 	padding-left: 2%;
+}
+
+.right-side{
+	display: inline-block;
+}
+
+.Skills-container{
+	max-width: 400px 
+}
+.Skills-container li{
+	display: inline-block;
+	background-color: #4e4e4e;
+	padding: 10px;
+	margin: 3px;
 }
 
 /*			Project			*/
@@ -127,18 +141,145 @@ footer {
     width: 100%;
     height: 300px;
 }
-.SocialBar{
+.ContactBar{
 	margin-right: 1.5%;
 }
-.SocialBar li{
+.ContactBar li{
     display: inline-block;
     padding-right: 10px;
 }
-.SocialBar img{
+.ContactBar img{
     max-width: 30px;
     max-height: 30px;
     display: inline-block;
 }
 #Copyright a{
 	display: inline-block;
+}
+
+
+
+/* Laptop Break Points */
+@media (min-width: 780px) and (max-width: 1366px) {
+	.about-section p{
+		font-size: 20px;
+	}
+
+	.project{
+		margin-bottom: 3%;
+		max-width: 25%;
+	}
+}
+
+/* Tablet Break Points */
+@media screen and (min-width: 540px) and (max-width: 780px){
+	nav{
+		flex-grow: 0;
+	}
+
+	.about-section p{
+		font-size: 18px;
+		width: 75%;
+	}
+	.about-section img{
+		height: 300px;
+	}
+	.Skills-container li{
+		font-size: 15px;
+	}
+	.project-section{
+		max-width: 20%;
+	}
+	.project{
+		margin-bottom: 3%;
+
+	}
+	#numGuess{
+		width: 85%;
+	}
+
+}
+
+/* Mobile Break Points */
+@media screen and (max-width: 540px) {
+	#Name-text{
+		font-size: 25px;
+		text-align: center;
+		margin-right: 20%;
+	}
+	nav{
+		flex-grow: 0;
+		font-size: 11px;
+	}
+	h1{
+		padding-top: 15%;
+		font-size: 21px;
+		max-width: 95%;
+		margin-right: 10%;
+	}
+	.banner-section p{
+		font-size: 15px;
+		max-width: 75%;
+		margin-left: 7%;
+	}
+
+	.about-section{
+		margin-right: 10%;
+	}
+
+	#about_me{
+		font-size: 20px;
+		margin-right: 10%;
+	}
+	.about-section p{
+		font-size: 18px;
+		width: 60%;
+	}
+	.about-section img{
+		height: 300px;
+	}
+	.Skills-container{
+		max-width: 300px 
+	}
+	.Skills-container ul{
+		margin-right: 20%;
+	}
+	.Skills-container li{
+		font-size: 15px;
+
+	}
+	#projects{
+		font-size: 20px;
+		margin-right: 10%;
+	}
+	.projects-section p{
+		font-size: 18px;
+		width: 75%;
+		margin-left: 5%;
+	}
+	.project{
+		margin-bottom: 10%;
+		margin-left: 10%;
+	}
+
+	.project h3{
+		font-size: 18px;
+	}
+	#numGuess{
+		width: 90%;
+	}
+
+	.visit-button,.project-button{
+		padding: 10px 30px;
+		font-size: 28px;
+		text-align: center;
+		cursor: pointer;
+		color: #fff;
+		background-color: #0a3a94;
+		border-radius: 20px;
+		box-shadow: 0 10px #4b4b4b;
+	  }
+	footer{
+		max-width: 90%;
+	}
 }
