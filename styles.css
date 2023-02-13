@@ -240,10 +240,14 @@ footer {
 	}
 	.project{
 		margin-bottom: 3%;
-
+		margin-left: 10%;
 	}
 	#numGuess{
 		width: 85%;
+	}
+
+	.s-soft{
+		display: none;
 	}
 
 }
