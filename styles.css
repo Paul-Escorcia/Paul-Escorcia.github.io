@@ -81,6 +81,7 @@ a{
 	display: inline-block;
 	width: 30%;
 	padding-bottom: 1%;
+	font-size: 25px;
 }
 .about-section img{
 	display: inline-block;
@@ -239,10 +240,14 @@ footer {
 	}
 	.project{
 		margin-bottom: 3%;
-
+		margin-left: 10%;
 	}
 	#numGuess{
 		width: 85%;
+	}
+
+	.s-soft{
+		display: none;
 	}
 
 }
@@ -328,5 +333,8 @@ footer {
 	  }
 	footer{
 		max-width: 90%;
+	}
+	.s-soft{
+		display: none;
 	}
 }
