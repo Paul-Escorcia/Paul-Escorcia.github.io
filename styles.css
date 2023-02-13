@@ -157,6 +157,53 @@ footer {
 	display: inline-block;
 }
 
+/*		Social Bar		 */
+.s-soft{ 
+	position: fixed;
+	top: 100px ;
+	left: 10; 
+	z-index: 1000; 
+	transition:all linear 0.2s ;
+}
+.s-soft a:first-child{ 
+	border-radius: 0 5px 0 0;
+}
+.s-soft a:last-child{ 
+	border-radius: 0 0 5px 0;
+}
+.s-item { 
+	display:block; 
+	width: 60px;
+	height: 60px;
+	color: white; font-size: 25px;line-height: 60px;
+	text-align: center;transition:all linear 0.2s ;}
+.s-item:hover { 
+	width:110px;
+	border-radius:0px 20px 20px 0px;  }
+#so-open { 
+	position: fixed; top: 100px ;
+   	left: -90px;border-radius:0 30px 30px 0;
+   	transition:all linear 0.2s ;}
+.email {
+	background-color:  #787879;
+}
+.linkedin{
+	background-color: #0e76a8 ;
+}
+.github {
+	background-color: #de3c7d;
+}
+.twitter {
+	background-color: #3AAFD6;
+}
+.so-collapse{
+	left: -60px; 
+}
+.s-soft img{
+	height: 50%;
+	padding-top: 20%;
+}
+
 
 
 /* Laptop Break Points */
