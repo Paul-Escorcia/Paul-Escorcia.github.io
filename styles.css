@@ -79,12 +79,13 @@ a{
 .about-section p{
 	text-align: left;
 	display: inline-block;
-	width: 30%;
+	width: 40%;
 	padding-bottom: 1%;
+	font-size: 24px;
 }
 .about-section img{
 	display: inline-block;
-	height: 400px;
+	height: 320px;
 	padding-left: 2%;
 }
 
@@ -275,7 +276,7 @@ footer {
 	}
 
 	.about-section{
-		margin-right: 10%;
+		max-width: 100%;
 	}
 
 	#about_me{
@@ -301,16 +302,16 @@ footer {
 	}
 	#projects{
 		font-size: 20px;
-		margin-right: 10%;
+		margin-right: 5%;
 	}
 	.projects-section p{
 		font-size: 18px;
 		width: 75%;
-		margin-left: 5%;
+		margin-left: 10%;
 	}
 	.project{
 		margin-bottom: 10%;
-		margin-left: 10%;
+		margin-left: 25%;
 	}
 
 	.project h3{
@@ -331,7 +332,7 @@ footer {
 		box-shadow: 0 10px #4b4b4b;
 	  }
 	footer{
-		max-width: 90%;
+		max-width: 100%;
 	}
 	.s-soft{
 		display: none;
